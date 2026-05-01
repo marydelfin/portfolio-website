@@ -9,79 +9,72 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <h2>My Portfolio</h2>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<nav>
+    <h2>My Portfolio</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Hello, I'm Mary 👋</h1>
-        <p>MCA Student | Aspiring Developer</p>
+<section class="hero">
+    <h1>Hello, I'm Mary 👋</h1>
+    <p>MCA Student | Aspiring Developer</p>
+    <img src="https://via.placeholder.com/150">
+    <br><br>
+    <button onclick="showMessage()">Hire Me</button>
+</section>
 
-        <img src="https://via.placeholder.com/150" alt="My Photo">
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am an MCA final year student. I have worked on a Student Management System project.</p>
+</section>
 
-        <br><br>
-        <button onclick="showMessage()">Hire Me</button>
-    </section>
+<section id="skills">
+    <h2>My Skills</h2>
+    <p>HTML, CSS, JavaScript, Python, SQL</p>
+</section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am an MCA final year student. I have worked on a Student Management System project.</p>
-    </section>
+<section id="projects">
+    <h2>My Projects</h2>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>My Skills</h2>
-        <p>HTML, CSS, JavaScript, Python, SQL</p>
-    </section>
+    <div class="projects-container">
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>A system to manage student records using Python and database.</p>
 
-        <div class="projects-container">
-
-            <div class="project-card">
-    <h3>Student Management System</h3>
-    <p>A system to manage student records using Python and database.</p>
-
-    <a href="https://github.com/marydelfin/student-management-system" target="_blank">
-        View on GitHub
-    </a>
-</div>
-
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>This personal portfolio website built using HTML, CSS, and JavaScript.</p>
-                <a href="https://github.com/marydelfin/portfolio-website" target="_blank">
-    View on GitHub
-</a>
-            </div>
-
+            <a href="https://github.com/marydelfin/student-management-system" target="_blank">
+                View on GitHub
+            </a>
         </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:mary@example.com">mary@example.com</a></p>
-        <p>Phone: <a href="tel:1234567890">1234567890</a></p>
-    </section>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>This personal portfolio website built using HTML, CSS, and JavaScript.</p>
 
-    <script>
-        function showMessage() {
-            alert("Thanks for visiting my portfolio!");
-        }
-    </script>
+            <a href="https://github.com/marydelfin/portfolio-website" target="_blank">
+                View on GitHub
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:mary@example.com">mary@example.com</a></p>
+    <p>Phone: <a href="tel:1234567890">1234567890</a></p>
+</section>
+
+<script>
+function showMessage() {
+    alert("Thanks for visiting my portfolio!");
+}
+</script>
 
 </body>
 </html>
